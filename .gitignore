@@ -1,0 +1,9 @@
+.vscode
+
+*~
+*.pyc
+
+GPATH
+GRTAGS
+GSYMS
+GTAGS
