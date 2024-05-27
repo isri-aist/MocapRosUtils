@@ -31,6 +31,11 @@ public:
    */
   void publishJointState(bool loop = false) const;
 
+  /** \brief Dump joint state message to a rosbag file.
+      \param rosbag_filename Path of the rosbag file
+   */
+  void dumpRosbag(const std::string & rosbag_filename) const;
+
 public:
   //! Sampling period [sec]
   double dt_ = 0;

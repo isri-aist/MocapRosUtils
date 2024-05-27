@@ -4,6 +4,8 @@
 
 #include <ros/ros.h>
 
+#include <rosbag/bag.h>
+
 using namespace MocapRosUtils;
 
 sensor_msgs::JointState JointTrajData::makeJointStateMsg(int frame_idx) const
@@ -49,4 +51,17 @@ void JointTrajData::publishJointState(bool loop) const
       break;
     }
   }
+}
+
+void JointTrajData::dumpRosbag(const std::string & rosbag_filename) const
+{
+  rosbag::Bag bag;
+  bag.open(rosbag_filename, rosbag::bagmode::Write);
+
+  for(int frame_idx = 0; frame_idx < pos_list_.rows(); frame_idx++)
+  {
+    bag.write("joint_states", ros::Time::now(), makeJointStateMsg(frame_idx));
+  }
+
+  bag.close();
 }

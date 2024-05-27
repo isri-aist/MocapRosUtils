@@ -20,12 +20,13 @@ project(${PROJECT_NAME} LANGUAGES CXX)
 # RBDyn
 find_package(RBDyn REQUIRED)
 
-find_package(catkin REQUIRED COMPONENTS roscpp roslib sensor_msgs)
+find_package(catkin REQUIRED COMPONENTS roscpp roslib rosbag sensor_msgs)
 
 catkin_package(
   CATKIN_DEPENDS
   roscpp
   roslib
+  rosbag
   sensor_msgs
   INCLUDE_DIRS
   include

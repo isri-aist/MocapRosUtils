@@ -17,6 +17,13 @@ $ catkin build -DCMAKE_BUILD_TYPE=RelWithDebInfo
 
 ## Examples
 
+### Visualize BVH animation
+```bash
+$ roslaunch mocap_ros_utils visualize_bvh.launch
+```
+
+https://github.com/isri-aist/MocapRosUtils/assets/6636600/c1c3b077-3f81-42dd-9d78-1073588b167a
+
 ### Dump URDF file from BVH hierarchy data
 ```bash
 $ rosrun mocap_ros_utils GenerateUrdfFromBvh `rospack find mocap_ros_utils`/data/sample_walk.bvh /tmp/BvhRobot.urdf BvhRobot
@@ -24,9 +31,7 @@ $ rosrun mocap_ros_utils GenerateUrdfFromBvh `rospack find mocap_ros_utils`/data
 $ roslaunch urdf_tutorial display.launch model:=/tmp/BvhRobot.urdf
 ```
 
-### Visualize BVH motion with TF
+### Dump rosbag file from BVH motion data
 ```bash
-$ roslaunch mocap_ros_utils visualize_bvh.launch
+$ rosrun mocap_ros_utils DumpRosbagFromBvh `rospack find mocap_ros_utils`/data/sample_walk.bvh /tmp/sample_walk.bag
 ```
-
-https://github.com/isri-aist/MocapRosUtils/assets/6636600/c1c3b077-3f81-42dd-9d78-1073588b167a

@@ -13,7 +13,7 @@ int main(int argc, char ** argv)
   bvh_converter_config.print_level = 0;
   bvh_converter_config.pos_scale = 1e-2;
   bvh_converter_config.urdf_cylinder_radius_list = {{"Spine", 0.03}, {"Spine1", 0.03}, {"Head", 0.1}};
-  bvh_converter_config.disable_end_link_visual = true;
+  bvh_converter_config.disable_end_link_visual = false;
 
   std::string bvh_filename;
   nh.getParam("bvh_filename", bvh_filename);
