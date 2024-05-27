@@ -1,6 +1,10 @@
 # [MocapRosUtils](https://github.com/isri-aist/MocapRosUtils)
 ROS-based utilities for motion capture
 
+[![CI](https://github.com/isri-aist/MocapRosUtils/actions/workflows/ci.yaml/badge.svg)](https://github.com/isri-aist/MocapRosUtils/actions/workflows/ci.yaml)
+[![Documentation](https://img.shields.io/badge/doxygen-online-brightgreen?logo=read-the-docs&style=flat)](https://isri-aist.github.io/MocapRosUtils/)
+[![LICENSE](https://img.shields.io/github/license/isri-aist/MocapRosUtils)](https://github.com/isri-aist/MocapRosUtils/blob/master/LICENSE)
+
 ## Install
 
 ### Dependencies
