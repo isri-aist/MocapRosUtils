@@ -82,14 +82,16 @@ $(function() {
 <h2>Installation procedure</h2>
 <div class="fragment"><div class="line">$ catkin build -DCMAKE_BUILD_TYPE=RelWithDebInfo</div>
 </div><!-- fragment --><h1>Examples</h1>
+<h2>Visualize BVH animation</h2>
+<div class="fragment"><div class="line">$ roslaunch mocap_ros_utils visualize_bvh.launch</div>
+</div><!-- fragment --><p><a href="https://github.com/isri-aist/MocapRosUtils/assets/6636600/c1c3b077-3f81-42dd-9d78-1073588b167a">https://github.com/isri-aist/MocapRosUtils/assets/6636600/c1c3b077-3f81-42dd-9d78-1073588b167a</a></p>
 <h2>Dump URDF file from BVH hierarchy data</h2>
 <div class="fragment"><div class="line">$ rosrun mocap_ros_utils GenerateUrdfFromBvh `rospack find mocap_ros_utils`/data/sample_walk.bvh /tmp/BvhRobot.urdf BvhRobot</div>
 <div class="line"># Visualize URDF model</div>
 <div class="line">$ roslaunch urdf_tutorial display.launch model:=/tmp/BvhRobot.urdf</div>
-</div><!-- fragment --><h2>Visualize BVH motion with TF</h2>
-<div class="fragment"><div class="line">$ roslaunch mocap_ros_utils visualize_bvh.launch</div>
-</div><!-- fragment --><p><a href="https://github.com/isri-aist/MocapRosUtils/assets/6636600/c1c3b077-3f81-42dd-9d78-1073588b167a">https://github.com/isri-aist/MocapRosUtils/assets/6636600/c1c3b077-3f81-42dd-9d78-1073588b167a</a> </p>
-</div></div><!-- PageDoc -->
+</div><!-- fragment --><h2>Dump rosbag file from BVH motion data</h2>
+<div class="fragment"><div class="line">$ rosrun mocap_ros_utils DumpRosbagFromBvh `rospack find mocap_ros_utils`/data/sample_walk.bvh /tmp/sample_walk.bag</div>
+</div><!-- fragment --> </div></div><!-- PageDoc -->
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

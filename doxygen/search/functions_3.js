@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['jointtrajdata_55',['JointTrajData',['../classMocapRosUtils_1_1JointTrajData.html#a5b154a48628b732d4747153ebeb74178',1,'MocapRosUtils::JointTrajData']]]
+  ['dumprosbag_56',['dumpRosbag',['../classMocapRosUtils_1_1JointTrajData.html#aed23e56daed934ac875f2724e72d24b0',1,'MocapRosUtils::JointTrajData']]]
 ];
