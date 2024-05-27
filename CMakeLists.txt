@@ -20,12 +20,12 @@ project(${PROJECT_NAME} LANGUAGES CXX)
 # RBDyn
 find_package(RBDyn REQUIRED)
 
-find_package(catkin REQUIRED COMPONENTS roscpp robot_array_msgs)
+find_package(catkin REQUIRED COMPONENTS roscpp sensor_msgs robot_array_msgs)
 
 catkin_package(
   CATKIN_DEPENDS
-  message_runtime
   roscpp
+  sensor_msgs
   robot_array_msgs
   INCLUDE_DIRS
   include
@@ -33,5 +33,7 @@ catkin_package(
   MocapRosUtils)
 
 add_subdirectory(src)
+
+add_subdirectory(node)
 
 # if(INSTALL_DOCUMENTATION) add_subdirectory(doc) endif()

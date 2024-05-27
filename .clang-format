@@ -46,24 +46,20 @@ IncludeBlocks: Regroup
 IncludeCategories:
   - Regex:           '^(<mc_[a-z]*/)'
     Priority:        1
-  - Regex:           '^(<Tasks/)'
+  - Regex:           '^(<Eigen/)'
     Priority:        2
-  - Regex:           '^(<mc_rbdyn_urdf/)'
-    Priority:        3
   - Regex:           '^(<RBDyn/)'
+    Priority:        3
+  - Regex:           '^(<MocapRosUtils/)'
     Priority:        4
-  - Regex:           '^(<SpaceVecAlg/)'
-    Priority:        5
-  - Regex:           '^(<sch-core/)'
-    Priority:        6
   - Regex:           '^(<boost/)'
-    Priority:        7
+    Priority:        5
   - Regex:           '^(<(nanomsg|geos|.*_msgs|ros|tf2.*)/)'
-    Priority:        8
+    Priority:        6
   - Regex:           '^(")'
-    Priority:        9
+    Priority:        7
   - Regex:           '.*'
-    Priority:        10
+    Priority:        8
 IncludeIsMainRegex: '(Test)?$'
 IndentCaseLabels: true
 IndentPPDirectives: AfterHash
