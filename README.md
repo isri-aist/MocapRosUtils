@@ -24,3 +24,5 @@ $ roslaunch urdf_tutorial display.launch model:=/tmp/BvhRobot.urdf
 ```bash
 $ roslaunch mocap_ros_utils visualize_bvh.launch
 ```
+
+https://github.com/isri-aist/MocapRosUtils/assets/6636600/c1c3b077-3f81-42dd-9d78-1073588b167a
