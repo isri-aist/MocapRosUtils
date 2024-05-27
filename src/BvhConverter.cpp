@@ -153,7 +153,7 @@ bool BvhConverter::parse(const std::string & filename)
         }
         else
         {
-          if(joint_traj_data_.pos_list_.cols() != motion_str_list.size())
+          if(joint_traj_data_.pos_list_.cols() != static_cast<int>(motion_str_list.size()))
           {
             ROS_ERROR_STREAM("[BvhConverter::parse] Motion dimensions change: " << joint_traj_data_.pos_list_.cols()
                                                                                 << " != " << motion_str_list.size());
@@ -170,7 +170,7 @@ bool BvhConverter::parse(const std::string & filename)
 
   // Parse hierarchy
   parseBvhHierarchy(hierarchy_str_list);
-  if(joint_traj_data_.pos_list_.cols() != joint_traj_data_.names_.size())
+  if(joint_traj_data_.pos_list_.cols() != static_cast<int>(joint_traj_data_.names_.size()))
   {
     ROS_ERROR_STREAM("[BvhConverter::parse] Hierarchy and motion dimensions are inconsistent: "
                      << joint_traj_data_.pos_list_.cols() << " != " << joint_traj_data_.names_.size());
@@ -239,7 +239,7 @@ std::shared_ptr<BvhJoint> BvhConverter::makeBvhJoint(std::vector<std::string>::c
 
   if(*it != "{")
   {
-    ROS_ERROR_STREAM("[BvhConverter::makeBvhJoint] Expect \"\{\" but \"" << *it << "\"");
+    ROS_ERROR_STREAM("[BvhConverter::makeBvhJoint] Expect \"{\" but \"" << *it << "\"");
   }
   it++;
 
@@ -349,7 +349,7 @@ void BvhConverter::addRbdBody(const std::shared_ptr<BvhJoint> & bvh_joint,
                               rbd::MultiBodyGraph & mbg) const
 {
   std::string parent_body_name = parent_name;
-  for(int i = 0; i < bvh_joint->rbd_joint_list.size(); i++)
+  for(size_t i = 0; i < bvh_joint->rbd_joint_list.size(); i++)
   {
     // Add joint
     const auto & rbd_joint = bvh_joint->rbd_joint_list[i];

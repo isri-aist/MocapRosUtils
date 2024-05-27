@@ -14,7 +14,7 @@ sensor_msgs::JointState JointTrajData::makeJointStateMsg(int frame_idx) const
   js_msg.header.frame_id = "world";
   js_msg.name = names_;
   js_msg.position.resize(names_.size());
-  for(int joint_idx = 0; joint_idx < names_.size(); joint_idx++)
+  for(size_t joint_idx = 0; joint_idx < names_.size(); joint_idx++)
   {
     js_msg.position[joint_idx] = pos_list_(frame_idx, joint_idx);
   }
