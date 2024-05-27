@@ -14,11 +14,9 @@
 
   <depend>roscpp</depend>
   <depend>sensor_msgs</depend>
-  <depend>robot_array_msgs</depend>
 
   <exec_depend>tf2_ros</exec_depend>
   <exec_depend>robot_state_publisher</exec_depend>
-  <exec_depend>robot_array_rviz_plugins</exec_depend>
 
   <doc_depend>doxygen</doc_depend>
   <doc_depend>graphviz</doc_depend>
