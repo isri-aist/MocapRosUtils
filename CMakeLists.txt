@@ -40,4 +40,6 @@ if(CATKIN_ENABLE_TESTING)
   add_subdirectory(tests)
 endif()
 
-# if(INSTALL_DOCUMENTATION) add_subdirectory(doc) endif()
+if(INSTALL_DOCUMENTATION)
+  add_subdirectory(doc)
+endif()
