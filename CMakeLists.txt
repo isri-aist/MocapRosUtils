@@ -20,11 +20,12 @@ project(${PROJECT_NAME} LANGUAGES CXX)
 # RBDyn
 find_package(RBDyn REQUIRED)
 
-find_package(catkin REQUIRED COMPONENTS roscpp sensor_msgs)
+find_package(catkin REQUIRED COMPONENTS roscpp roslib sensor_msgs)
 
 catkin_package(
   CATKIN_DEPENDS
   roscpp
+  roslib
   sensor_msgs
   INCLUDE_DIRS
   include
@@ -34,5 +35,9 @@ catkin_package(
 add_subdirectory(src)
 
 add_subdirectory(node)
+
+if(CATKIN_ENABLE_TESTING)
+  add_subdirectory(tests)
+endif()
 
 # if(INSTALL_DOCUMENTATION) add_subdirectory(doc) endif()
