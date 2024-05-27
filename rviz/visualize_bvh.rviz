@@ -1,0 +1,1308 @@
+Panels:
+  - Class: rviz/Displays
+    Help Height: 110
+    Name: Displays
+    Property Tree Widget:
+      Expanded:
+        - /Global Options1
+      Splitter Ratio: 0.4968253970146179
+    Tree Height: 1013
+  - Class: rviz/Selection
+    Name: Selection
+  - Class: rviz/Tool Properties
+    Expanded:
+      - /2D Pose Estimate1
+      - /2D Nav Goal1
+      - /Publish Point1
+    Name: Tool Properties
+    Splitter Ratio: 0.5886790156364441
+  - Class: rviz/Views
+    Expanded:
+      - /Current View1
+    Name: Views
+    Splitter Ratio: 0.5
+  - Class: rviz/Time
+    Experimental: false
+    Name: Time
+    SyncMode: 0
+    SyncSource: ""
+Preferences:
+  PromptSaveOnExit: true
+Toolbars:
+  toolButtonStyle: 2
+Visualization Manager:
+  Class: ""
+  Displays:
+    - Class: rviz/Axes
+      Enabled: false
+      Length: 0.20000000298023224
+      Name: Axes
+      Radius: 0.03999999910593033
+      Reference Frame: <Fixed Frame>
+      Value: false
+    - Alpha: 0.5
+      Cell Size: 1
+      Class: rviz/Grid
+      Color: 160; 160; 164
+      Enabled: true
+      Line Style:
+        Line Width: 0.029999999329447746
+        Value: Lines
+      Name: Grid
+      Normal Cell Count: 0
+      Offset:
+        X: 0
+        Y: 0
+        Z: 0
+      Plane: XY
+      Plane Cell Count: 10
+      Reference Frame: <Fixed Frame>
+      Value: true
+    - Alpha: 1
+      Class: rviz/RobotModel
+      Collision Enabled: false
+      Enabled: true
+      Links:
+        All Links Enabled: true
+        Expand Joint Details: false
+        Expand Link Details: false
+        Expand Tree: false
+        Head:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        Head_Xrotation:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        Head_Zrotation:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        Hips:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Hips_Xposition:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        Hips_Xrotation:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        Hips_Yposition:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        Hips_Zposition:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        Hips_Zrotation:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        LeftArm:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        LeftArm_Xrotation:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        LeftArm_Zrotation:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        LeftFoot:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        LeftFoot_Xrotation:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        LeftFoot_Zrotation:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        LeftForeArm:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        LeftForeArm_Xrotation:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        LeftForeArm_Zrotation:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        LeftHand:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        LeftHandIndex1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        LeftHandIndex1_Xrotation:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        LeftHandIndex1_Zrotation:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        LeftHandIndex2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        LeftHandIndex2_Xrotation:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        LeftHandIndex2_Zrotation:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        LeftHandIndex3:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        LeftHandIndex3_Xrotation:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        LeftHandIndex3_Zrotation:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        LeftHandMiddle1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        LeftHandMiddle1_Xrotation:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        LeftHandMiddle1_Zrotation:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        LeftHandMiddle2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        LeftHandMiddle2_Xrotation:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        LeftHandMiddle2_Zrotation:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        LeftHandMiddle3:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        LeftHandMiddle3_Xrotation:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        LeftHandMiddle3_Zrotation:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        LeftHandPinky1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        LeftHandPinky1_Xrotation:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        LeftHandPinky1_Zrotation:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        LeftHandPinky2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        LeftHandPinky2_Xrotation:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        LeftHandPinky2_Zrotation:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        LeftHandPinky3:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        LeftHandPinky3_Xrotation:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        LeftHandPinky3_Zrotation:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        LeftHandRing1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        LeftHandRing1_Xrotation:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        LeftHandRing1_Zrotation:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        LeftHandRing2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        LeftHandRing2_Xrotation:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        LeftHandRing2_Zrotation:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        LeftHandRing3:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        LeftHandRing3_Xrotation:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        LeftHandRing3_Zrotation:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        LeftHandThumb1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        LeftHandThumb1_Xrotation:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        LeftHandThumb1_Zrotation:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        LeftHandThumb2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        LeftHandThumb2_Xrotation:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        LeftHandThumb2_Zrotation:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        LeftHandThumb3:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        LeftHandThumb3_Xrotation:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        LeftHandThumb3_Zrotation:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        LeftHand_Xrotation:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        LeftHand_Zrotation:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        LeftLeg:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        LeftLeg_Xrotation:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        LeftLeg_Zrotation:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        LeftShoulder:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        LeftShoulder_Xrotation:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        LeftShoulder_Zrotation:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        LeftToeBase:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        LeftToeBase_Xrotation:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        LeftToeBase_Zrotation:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        LeftUpLeg:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        LeftUpLeg_Xrotation:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        LeftUpLeg_Zrotation:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        Link Tree Style: Links in Alphabetic Order
+        Neck:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Neck_Xrotation:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        Neck_Zrotation:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        RightArm:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        RightArm_Xrotation:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        RightArm_Zrotation:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        RightFoot:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        RightFoot_Xrotation:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        RightFoot_Zrotation:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        RightForeArm:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        RightForeArm_Xrotation:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        RightForeArm_Zrotation:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        RightHand:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        RightHandIndex1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        RightHandIndex1_Xrotation:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        RightHandIndex1_Zrotation:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        RightHandIndex2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        RightHandIndex2_Xrotation:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        RightHandIndex2_Zrotation:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        RightHandIndex3:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        RightHandIndex3_Xrotation:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        RightHandIndex3_Zrotation:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        RightHandMiddle1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        RightHandMiddle1_Xrotation:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        RightHandMiddle1_Zrotation:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        RightHandMiddle2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        RightHandMiddle2_Xrotation:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        RightHandMiddle2_Zrotation:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        RightHandMiddle3:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        RightHandMiddle3_Xrotation:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        RightHandMiddle3_Zrotation:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        RightHandPinky1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        RightHandPinky1_Xrotation:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        RightHandPinky1_Zrotation:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        RightHandPinky2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        RightHandPinky2_Xrotation:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        RightHandPinky2_Zrotation:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        RightHandPinky3:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        RightHandPinky3_Xrotation:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        RightHandPinky3_Zrotation:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        RightHandRing1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        RightHandRing1_Xrotation:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        RightHandRing1_Zrotation:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        RightHandRing2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        RightHandRing2_Xrotation:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        RightHandRing2_Zrotation:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        RightHandRing3:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        RightHandRing3_Xrotation:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        RightHandRing3_Zrotation:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        RightHandThumb1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        RightHandThumb1_Xrotation:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        RightHandThumb1_Zrotation:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        RightHandThumb2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        RightHandThumb2_Xrotation:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        RightHandThumb2_Zrotation:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        RightHandThumb3:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        RightHandThumb3_Xrotation:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        RightHandThumb3_Zrotation:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        RightHand_Xrotation:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        RightHand_Zrotation:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        RightLeg:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        RightLeg_Xrotation:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        RightLeg_Zrotation:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        RightShoulder:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        RightShoulder_Xrotation:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        RightShoulder_Zrotation:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        RightToeBase:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        RightToeBase_Xrotation:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        RightToeBase_Zrotation:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        RightUpLeg:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        RightUpLeg_Xrotation:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        RightUpLeg_Zrotation:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        Spine:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Spine1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Spine1_Xrotation:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        Spine1_Zrotation:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        Spine_Xrotation:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        Spine_Zrotation:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        base_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+      Name: RobotModel
+      Robot Description: robot_description
+      TF Prefix: ""
+      Update Interval: 0
+      Value: true
+      Visual Enabled: true
+    - Class: rviz/TF
+      Enabled: true
+      Frame Timeout: 15
+      Frames:
+        All Enabled: true
+        Head:
+          Value: true
+        Head_Xrotation:
+          Value: true
+        Head_Zrotation:
+          Value: true
+        Hips:
+          Value: true
+        Hips_Xposition:
+          Value: true
+        Hips_Xrotation:
+          Value: true
+        Hips_Yposition:
+          Value: true
+        Hips_Zposition:
+          Value: true
+        Hips_Zrotation:
+          Value: true
+        LeftArm:
+          Value: true
+        LeftArm_Xrotation:
+          Value: true
+        LeftArm_Zrotation:
+          Value: true
+        LeftFoot:
+          Value: true
+        LeftFoot_Xrotation:
+          Value: true
+        LeftFoot_Zrotation:
+          Value: true
+        LeftForeArm:
+          Value: true
+        LeftForeArm_Xrotation:
+          Value: true
+        LeftForeArm_Zrotation:
+          Value: true
+        LeftHand:
+          Value: true
+        LeftHandIndex1:
+          Value: true
+        LeftHandIndex1_Xrotation:
+          Value: true
+        LeftHandIndex1_Zrotation:
+          Value: true
+        LeftHandIndex2:
+          Value: true
+        LeftHandIndex2_Xrotation:
+          Value: true
+        LeftHandIndex2_Zrotation:
+          Value: true
+        LeftHandIndex3:
+          Value: true
+        LeftHandIndex3_Xrotation:
+          Value: true
+        LeftHandIndex3_Zrotation:
+          Value: true
+        LeftHandMiddle1:
+          Value: true
+        LeftHandMiddle1_Xrotation:
+          Value: true
+        LeftHandMiddle1_Zrotation:
+          Value: true
+        LeftHandMiddle2:
+          Value: true
+        LeftHandMiddle2_Xrotation:
+          Value: true
+        LeftHandMiddle2_Zrotation:
+          Value: true
+        LeftHandMiddle3:
+          Value: true
+        LeftHandMiddle3_Xrotation:
+          Value: true
+        LeftHandMiddle3_Zrotation:
+          Value: true
+        LeftHandPinky1:
+          Value: true
+        LeftHandPinky1_Xrotation:
+          Value: true
+        LeftHandPinky1_Zrotation:
+          Value: true
+        LeftHandPinky2:
+          Value: true
+        LeftHandPinky2_Xrotation:
+          Value: true
+        LeftHandPinky2_Zrotation:
+          Value: true
+        LeftHandPinky3:
+          Value: true
+        LeftHandPinky3_Xrotation:
+          Value: true
+        LeftHandPinky3_Zrotation:
+          Value: true
+        LeftHandRing1:
+          Value: true
+        LeftHandRing1_Xrotation:
+          Value: true
+        LeftHandRing1_Zrotation:
+          Value: true
+        LeftHandRing2:
+          Value: true
+        LeftHandRing2_Xrotation:
+          Value: true
+        LeftHandRing2_Zrotation:
+          Value: true
+        LeftHandRing3:
+          Value: true
+        LeftHandRing3_Xrotation:
+          Value: true
+        LeftHandRing3_Zrotation:
+          Value: true
+        LeftHandThumb1:
+          Value: true
+        LeftHandThumb1_Xrotation:
+          Value: true
+        LeftHandThumb1_Zrotation:
+          Value: true
+        LeftHandThumb2:
+          Value: true
+        LeftHandThumb2_Xrotation:
+          Value: true
+        LeftHandThumb2_Zrotation:
+          Value: true
+        LeftHandThumb3:
+          Value: true
+        LeftHandThumb3_Xrotation:
+          Value: true
+        LeftHandThumb3_Zrotation:
+          Value: true
+        LeftHand_Xrotation:
+          Value: true
+        LeftHand_Zrotation:
+          Value: true
+        LeftLeg:
+          Value: true
+        LeftLeg_Xrotation:
+          Value: true
+        LeftLeg_Zrotation:
+          Value: true
+        LeftShoulder:
+          Value: true
+        LeftShoulder_Xrotation:
+          Value: true
+        LeftShoulder_Zrotation:
+          Value: true
+        LeftToeBase:
+          Value: true
+        LeftToeBase_Xrotation:
+          Value: true
+        LeftToeBase_Zrotation:
+          Value: true
+        LeftUpLeg:
+          Value: true
+        LeftUpLeg_Xrotation:
+          Value: true
+        LeftUpLeg_Zrotation:
+          Value: true
+        Neck:
+          Value: true
+        Neck_Xrotation:
+          Value: true
+        Neck_Zrotation:
+          Value: true
+        RightArm:
+          Value: true
+        RightArm_Xrotation:
+          Value: true
+        RightArm_Zrotation:
+          Value: true
+        RightFoot:
+          Value: true
+        RightFoot_Xrotation:
+          Value: true
+        RightFoot_Zrotation:
+          Value: true
+        RightForeArm:
+          Value: true
+        RightForeArm_Xrotation:
+          Value: true
+        RightForeArm_Zrotation:
+          Value: true
+        RightHand:
+          Value: true
+        RightHandIndex1:
+          Value: true
+        RightHandIndex1_Xrotation:
+          Value: true
+        RightHandIndex1_Zrotation:
+          Value: true
+        RightHandIndex2:
+          Value: true
+        RightHandIndex2_Xrotation:
+          Value: true
+        RightHandIndex2_Zrotation:
+          Value: true
+        RightHandIndex3:
+          Value: true
+        RightHandIndex3_Xrotation:
+          Value: true
+        RightHandIndex3_Zrotation:
+          Value: true
+        RightHandMiddle1:
+          Value: true
+        RightHandMiddle1_Xrotation:
+          Value: true
+        RightHandMiddle1_Zrotation:
+          Value: true
+        RightHandMiddle2:
+          Value: true
+        RightHandMiddle2_Xrotation:
+          Value: true
+        RightHandMiddle2_Zrotation:
+          Value: true
+        RightHandMiddle3:
+          Value: true
+        RightHandMiddle3_Xrotation:
+          Value: true
+        RightHandMiddle3_Zrotation:
+          Value: true
+        RightHandPinky1:
+          Value: true
+        RightHandPinky1_Xrotation:
+          Value: true
+        RightHandPinky1_Zrotation:
+          Value: true
+        RightHandPinky2:
+          Value: true
+        RightHandPinky2_Xrotation:
+          Value: true
+        RightHandPinky2_Zrotation:
+          Value: true
+        RightHandPinky3:
+          Value: true
+        RightHandPinky3_Xrotation:
+          Value: true
+        RightHandPinky3_Zrotation:
+          Value: true
+        RightHandRing1:
+          Value: true
+        RightHandRing1_Xrotation:
+          Value: true
+        RightHandRing1_Zrotation:
+          Value: true
+        RightHandRing2:
+          Value: true
+        RightHandRing2_Xrotation:
+          Value: true
+        RightHandRing2_Zrotation:
+          Value: true
+        RightHandRing3:
+          Value: true
+        RightHandRing3_Xrotation:
+          Value: true
+        RightHandRing3_Zrotation:
+          Value: true
+        RightHandThumb1:
+          Value: true
+        RightHandThumb1_Xrotation:
+          Value: true
+        RightHandThumb1_Zrotation:
+          Value: true
+        RightHandThumb2:
+          Value: true
+        RightHandThumb2_Xrotation:
+          Value: true
+        RightHandThumb2_Zrotation:
+          Value: true
+        RightHandThumb3:
+          Value: true
+        RightHandThumb3_Xrotation:
+          Value: true
+        RightHandThumb3_Zrotation:
+          Value: true
+        RightHand_Xrotation:
+          Value: true
+        RightHand_Zrotation:
+          Value: true
+        RightLeg:
+          Value: true
+        RightLeg_Xrotation:
+          Value: true
+        RightLeg_Zrotation:
+          Value: true
+        RightShoulder:
+          Value: true
+        RightShoulder_Xrotation:
+          Value: true
+        RightShoulder_Zrotation:
+          Value: true
+        RightToeBase:
+          Value: true
+        RightToeBase_Xrotation:
+          Value: true
+        RightToeBase_Zrotation:
+          Value: true
+        RightUpLeg:
+          Value: true
+        RightUpLeg_Xrotation:
+          Value: true
+        RightUpLeg_Zrotation:
+          Value: true
+        Spine:
+          Value: true
+        Spine1:
+          Value: true
+        Spine1_Xrotation:
+          Value: true
+        Spine1_Zrotation:
+          Value: true
+        Spine_Xrotation:
+          Value: true
+        Spine_Zrotation:
+          Value: true
+        base_link:
+          Value: true
+        world:
+          Value: true
+      Marker Scale: 0.30000001192092896
+      Name: TF
+      Show Arrows: false
+      Show Axes: true
+      Show Names: true
+      Tree:
+        world:
+          base_link:
+            Hips_Xposition:
+              Hips_Yposition:
+                Hips_Zposition:
+                  Hips_Zrotation:
+                    Hips_Xrotation:
+                      Hips:
+                        LeftUpLeg_Zrotation:
+                          LeftUpLeg_Xrotation:
+                            LeftUpLeg:
+                              LeftLeg_Zrotation:
+                                LeftLeg_Xrotation:
+                                  LeftLeg:
+                                    LeftFoot_Zrotation:
+                                      LeftFoot_Xrotation:
+                                        LeftFoot:
+                                          LeftToeBase_Zrotation:
+                                            LeftToeBase_Xrotation:
+                                              LeftToeBase:
+                                                {}
+                        RightUpLeg_Zrotation:
+                          RightUpLeg_Xrotation:
+                            RightUpLeg:
+                              RightLeg_Zrotation:
+                                RightLeg_Xrotation:
+                                  RightLeg:
+                                    RightFoot_Zrotation:
+                                      RightFoot_Xrotation:
+                                        RightFoot:
+                                          RightToeBase_Zrotation:
+                                            RightToeBase_Xrotation:
+                                              RightToeBase:
+                                                {}
+                        Spine_Zrotation:
+                          Spine_Xrotation:
+                            Spine:
+                              Spine1_Zrotation:
+                                Spine1_Xrotation:
+                                  Spine1:
+                                    LeftShoulder_Zrotation:
+                                      LeftShoulder_Xrotation:
+                                        LeftShoulder:
+                                          LeftArm_Zrotation:
+                                            LeftArm_Xrotation:
+                                              LeftArm:
+                                                LeftForeArm_Zrotation:
+                                                  LeftForeArm_Xrotation:
+                                                    LeftForeArm:
+                                                      LeftHand_Zrotation:
+                                                        LeftHand_Xrotation:
+                                                          LeftHand:
+                                                            LeftHandIndex1_Zrotation:
+                                                              LeftHandIndex1_Xrotation:
+                                                                LeftHandIndex1:
+                                                                  LeftHandIndex2_Zrotation:
+                                                                    LeftHandIndex2_Xrotation:
+                                                                      LeftHandIndex2:
+                                                                        LeftHandIndex3_Zrotation:
+                                                                          LeftHandIndex3_Xrotation:
+                                                                            LeftHandIndex3:
+                                                                              {}
+                                                            LeftHandMiddle1_Zrotation:
+                                                              LeftHandMiddle1_Xrotation:
+                                                                LeftHandMiddle1:
+                                                                  LeftHandMiddle2_Zrotation:
+                                                                    LeftHandMiddle2_Xrotation:
+                                                                      LeftHandMiddle2:
+                                                                        LeftHandMiddle3_Zrotation:
+                                                                          LeftHandMiddle3_Xrotation:
+                                                                            LeftHandMiddle3:
+                                                                              {}
+                                                            LeftHandPinky1_Zrotation:
+                                                              LeftHandPinky1_Xrotation:
+                                                                LeftHandPinky1:
+                                                                  LeftHandPinky2_Zrotation:
+                                                                    LeftHandPinky2_Xrotation:
+                                                                      LeftHandPinky2:
+                                                                        LeftHandPinky3_Zrotation:
+                                                                          LeftHandPinky3_Xrotation:
+                                                                            LeftHandPinky3:
+                                                                              {}
+                                                            LeftHandRing1_Zrotation:
+                                                              LeftHandRing1_Xrotation:
+                                                                LeftHandRing1:
+                                                                  LeftHandRing2_Zrotation:
+                                                                    LeftHandRing2_Xrotation:
+                                                                      LeftHandRing2:
+                                                                        LeftHandRing3_Zrotation:
+                                                                          LeftHandRing3_Xrotation:
+                                                                            LeftHandRing3:
+                                                                              {}
+                                                            LeftHandThumb1_Zrotation:
+                                                              LeftHandThumb1_Xrotation:
+                                                                LeftHandThumb1:
+                                                                  LeftHandThumb2_Zrotation:
+                                                                    LeftHandThumb2_Xrotation:
+                                                                      LeftHandThumb2:
+                                                                        LeftHandThumb3_Zrotation:
+                                                                          LeftHandThumb3_Xrotation:
+                                                                            LeftHandThumb3:
+                                                                              {}
+                                    Neck_Zrotation:
+                                      Neck_Xrotation:
+                                        Neck:
+                                          Head_Zrotation:
+                                            Head_Xrotation:
+                                              Head:
+                                                {}
+                                    RightShoulder_Zrotation:
+                                      RightShoulder_Xrotation:
+                                        RightShoulder:
+                                          RightArm_Zrotation:
+                                            RightArm_Xrotation:
+                                              RightArm:
+                                                RightForeArm_Zrotation:
+                                                  RightForeArm_Xrotation:
+                                                    RightForeArm:
+                                                      RightHand_Zrotation:
+                                                        RightHand_Xrotation:
+                                                          RightHand:
+                                                            RightHandIndex1_Zrotation:
+                                                              RightHandIndex1_Xrotation:
+                                                                RightHandIndex1:
+                                                                  RightHandIndex2_Zrotation:
+                                                                    RightHandIndex2_Xrotation:
+                                                                      RightHandIndex2:
+                                                                        RightHandIndex3_Zrotation:
+                                                                          RightHandIndex3_Xrotation:
+                                                                            RightHandIndex3:
+                                                                              {}
+                                                            RightHandMiddle1_Zrotation:
+                                                              RightHandMiddle1_Xrotation:
+                                                                RightHandMiddle1:
+                                                                  RightHandMiddle2_Zrotation:
+                                                                    RightHandMiddle2_Xrotation:
+                                                                      RightHandMiddle2:
+                                                                        RightHandMiddle3_Zrotation:
+                                                                          RightHandMiddle3_Xrotation:
+                                                                            RightHandMiddle3:
+                                                                              {}
+                                                            RightHandPinky1_Zrotation:
+                                                              RightHandPinky1_Xrotation:
+                                                                RightHandPinky1:
+                                                                  RightHandPinky2_Zrotation:
+                                                                    RightHandPinky2_Xrotation:
+                                                                      RightHandPinky2:
+                                                                        RightHandPinky3_Zrotation:
+                                                                          RightHandPinky3_Xrotation:
+                                                                            RightHandPinky3:
+                                                                              {}
+                                                            RightHandRing1_Zrotation:
+                                                              RightHandRing1_Xrotation:
+                                                                RightHandRing1:
+                                                                  RightHandRing2_Zrotation:
+                                                                    RightHandRing2_Xrotation:
+                                                                      RightHandRing2:
+                                                                        RightHandRing3_Zrotation:
+                                                                          RightHandRing3_Xrotation:
+                                                                            RightHandRing3:
+                                                                              {}
+                                                            RightHandThumb1_Zrotation:
+                                                              RightHandThumb1_Xrotation:
+                                                                RightHandThumb1:
+                                                                  RightHandThumb2_Zrotation:
+                                                                    RightHandThumb2_Xrotation:
+                                                                      RightHandThumb2:
+                                                                        RightHandThumb3_Zrotation:
+                                                                          RightHandThumb3_Xrotation:
+                                                                            RightHandThumb3:
+                                                                              {}
+      Update Interval: 0
+      Value: true
+  Enabled: true
+  Global Options:
+    Background Color: 46; 52; 54
+    Default Light: true
+    Fixed Frame: world
+    Frame Rate: 30
+  Name: root
+  Tools:
+    - Class: rviz/Interact
+      Hide Inactive Objects: true
+    - Class: rviz/MoveCamera
+    - Class: rviz/Select
+    - Class: rviz/FocusCamera
+    - Class: rviz/Measure
+    - Class: rviz/SetInitialPose
+      Theta std deviation: 0.2617993950843811
+      Topic: /initialpose
+      X std deviation: 0.5
+      Y std deviation: 0.5
+    - Class: rviz/SetGoal
+      Topic: /move_base_simple/goal
+    - Class: rviz/PublishPoint
+      Single click: true
+      Topic: /clicked_point
+  Value: true
+  Views:
+    Current:
+      Class: rviz/Orbit
+      Distance: 6.628720283508301
+      Enable Stereo Rendering:
+        Stereo Eye Separation: 0.05999999865889549
+        Stereo Focal Distance: 1
+        Swap Stereo Eyes: false
+        Value: false
+      Focal Point:
+        X: -0.17653577029705048
+        Y: 0.2349177598953247
+        Z: 0.26270008087158203
+      Focal Shape Fixed Size: false
+      Focal Shape Size: 0.0010000000474974513
+      Invert Z Axis: false
+      Name: Current View
+      Near Clip Distance: 0.009999999776482582
+      Pitch: 0.6453983187675476
+      Target Frame: <Fixed Frame>
+      Value: Orbit (rviz)
+      Yaw: 6.1235857009887695
+    Saved: ~
+Window Geometry:
+  Displays:
+    collapsed: false
+  Height: 1401
+  Hide Left Dock: false
+  Hide Right Dock: false
+  QMainWindow State: 000000ff00000000fd000000040000000000000278000004bdfc0200000008fb0000001200530065006c0065006300740069006f006e00000001e10000009b0000008e00fffffffb0000001e0054006f006f006c002000500072006f007000650072007400690065007302000001ed000001df00000185000000a3fb000000120056006900650077007300200054006f006f02000001df000002110000018500000122fb000000200054006f006f006c002000500072006f0070006500720074006900650073003203000002880000011d000002210000017afb000000100044006900730070006c006100790073010000003a000004bd0000013600fffffffb0000002000730065006c0065006300740069006f006e00200062007500660066006500720200000138000000aa0000023a00000294fb00000014005700690064006500530074006500720065006f02000000e6000000d2000003ee0000030bfb0000000c004b0069006e0065006300740200000186000001060000030c00000261000000010000012e000004bdfc0200000003fb0000001e0054006f006f006c002000500072006f00700065007200740069006500730100000041000000780000000000000000fb0000000a00560069006500770073010000003a000004bd000000f800fffffffb0000001200530065006c0065006300740069006f006e010000025a000000b200000000000000000000000200000490000000a9fc0100000001fb0000000a00560069006500770073030000004e00000080000002e100000197000000030000099600000051fc0100000002fb0000000800540069006d00650100000000000009960000048000fffffffb0000000800540069006d00650100000000000004500000000000000000000005de000004bd00000004000000040000000800000008fc0000000100000002000000010000000a0054006f006f006c00730100000000ffffffff0000000000000000
+  Selection:
+    collapsed: false
+  Time:
+    collapsed: false
+  Tool Properties:
+    collapsed: false
+  Views:
+    collapsed: false
+  Width: 2454
+  X: 106
+  Y: 39

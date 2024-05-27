@@ -6,7 +6,7 @@ using namespace MocapRosUtils;
 
 int main(int argc, char ** argv)
 {
-  ros::init(argc, argv, "sample_bvh_publish_joint_state");
+  ros::init(argc, argv, "publish_joint_state_from_bvh");
   ros::NodeHandle nh;
 
   BvhConverter::Configuration bvh_converter_config;

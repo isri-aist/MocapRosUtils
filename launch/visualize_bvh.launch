@@ -1,0 +1,17 @@
+<launch>
+  <arg name="bvh_filename" default="$(find mocap_ros_utils)/data/sample_walk.bvh" />
+
+  <param name="bvh_filename" value="$(arg bvh_filename)" />
+
+  <node pkg="mocap_ros_utils" type="PublishJointStateFromBvh" name="publish_joint_state_from_bvh" />
+
+  <!-- Wait for the robot_description parameter to be set in the node above -->
+  <!-- See https://answers.ros.org/question/233353/set-delay-between-starting-nodes-within-launch-file/?answer=316355#post-id-316355 -->
+  <node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher"
+        launch-prefix="bash -c 'sleep 1.0; $0 $@'" />
+
+  <node pkg="tf2_ros" type="static_transform_publisher" name="static_transform_publisher_world" args="0 0 0 0 0 1.57 world base_link" />
+
+  <node pkg="rviz" type="rviz" name="$(anon rviz)"
+        args="-d $(find mocap_ros_utils)/rviz/visualize_bvh.rviz" />
+</launch>
