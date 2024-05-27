@@ -21,6 +21,10 @@ TEST(TestBvhConverter, Test1)
   // Dump URDF file
   std::string urdf_str = bvh_converter.convertToUrdf("TestBvhConverter");
   EXPECT_TRUE(urdf_str.size() > 0);
+
+  // Dump rosbag file
+  ros::Time::init();
+  bvh_converter.joint_traj_data_.dumpRosbag("/tmp/TestBvhConverter.bag");
 }
 
 int main(int argc, char ** argv)
